@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <title>Webpack &amp; Twig Example</title>
+        <style>
+            body {
+                opacity: 1;
+                transition: 0.8s opacity;
+            }
+            body.fade {
+                opacity: 0;
+                transition: none;
+            }
+        </style>
+    </head>
+    <body>
+        {% spaceless %}
+            <script>
+                document.body.className = 'fade';
+            </script>
+            {% block body %}{% endblock %}
+            {% block script %}{% endblock %}
+            <script async defer src="./dist/fonts.js?v=000000"></script>
+            <script defer src="./dist/styles.js?v=000000"></script>
+            <script async defer src="./dist/images.js?v=000000"></script>
+            <script defer src="./dist/scripts.js?v=000000"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function (e) {
+                    document.body.className = '';
+                });
+            </script>
+        {% endspaceless %}
+    </body>
+</html></body></html>

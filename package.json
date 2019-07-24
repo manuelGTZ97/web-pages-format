@@ -1,0 +1,44 @@
+{
+  "name": "web-pages-format",
+  "version": "1.0.0",
+  "description": "Boilerplate with Webpack, Twig and Bootstrap for landing pages or little projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config=webpack.config.js --env.development=true",
+    "build": "webpack --config=webpack.config.js --env.production=true"
+  },
+  "keywords": [],
+  "author": "Manuel Gutiérrez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "imagesloaded": "^4.1.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.6.0",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.0.0",
+    "gzip-loader": "0.0.1",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack": "^4.1.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
