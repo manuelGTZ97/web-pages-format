@@ -1,7 +1,7 @@
 {
   "name": "web-pages-format",
   "version": "1.0.0",
-  "description": "Boilerplate with Webpack, Twig and Bootstrap for landing pages or little projects.",
+  "description": "Boilerplate with Webpack, Twig and Bootstrap for landing pages or projects.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --config=webpack.config.js --env.development=true",

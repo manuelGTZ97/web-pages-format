@@ -7,6 +7,7 @@ const imageminSvgo = require("imagemin-svgo");
 
 const config = {
   entry: {
+    // If you need more entryPoints, add it here.
     scripts: "./src/entryPoints/scripts.js",
     images: "./src/entryPoints/images.js",
     fonts: "./src/entryPoints/fonts.js",
