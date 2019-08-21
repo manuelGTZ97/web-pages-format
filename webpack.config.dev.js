@@ -8,7 +8,7 @@ const imageminSvgo = require("imagemin-svgo");
 
 const config = {
   entry: {
-   // If you need more entryPoints, add it here. 
+    // If you need more entryPoints, add it here.
     scripts: "./src/entryPoints/scripts.js",
     images: "./src/entryPoints/images.js",
     fonts: "./src/entryPoints/fonts.js",
@@ -124,7 +124,7 @@ const config = {
       port: 3000,
       // Change your localhost server here.
       proxy: "http://localhost:8888/",
-      files: ["./**/*.php", "./templates/**/*.twig", "./**/*.*"]
+      files: ["./**/*.php", "./templates/**/*.twig"]
     }),
     new ImageminPlugin({
       bail: false,
