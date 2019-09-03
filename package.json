@@ -11,10 +11,7 @@
   "author": "Manuel Gutiérrez",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "imagesloaded": "^4.1.4",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "imagesloaded": "^4.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
