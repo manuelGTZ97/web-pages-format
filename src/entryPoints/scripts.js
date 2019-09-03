@@ -1,1 +1,1 @@
-import "../js/test";
+import "../js/testScript";
