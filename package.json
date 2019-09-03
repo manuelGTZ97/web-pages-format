@@ -1,0 +1,55 @@
+{
+  "name": "web-pages-format",
+  "version": "1.0.0",
+  "description": "Html adn Webpack",
+  "main": "webpack.config.dev.js",
+  "scripts": {
+    "serve": "npm run watch && npm run start",
+    "start": "webpack-dev-server --progress --colors",
+    "watch": "webpack --config=webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelGTZ97/web-pages-format.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "imagesloaded": "^4.1.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "script-ext-html-webpack-plugin": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.6.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.0.0",
+    "gzip-loader": "0.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack": "^4.1.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelGTZ97/web-pages-format/issues"
+  },
+  "homepage": "https://github.com/manuelGTZ97/web-pages-format#readme"
+}
