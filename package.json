@@ -1,12 +1,13 @@
 {
   "name": "web-pages-format",
   "version": "1.0.0",
-  "description": "Html adn Webpack",
+  "description": "Html and Webpack",
   "main": "webpack.config.dev.js",
   "scripts": {
-    "serve": "npm run watch && npm run start",
-    "start": "webpack-dev-server --progress --colors",
-    "watch": "webpack --config=webpack.config.js"
+    "start": "npm run dev:server",
+    "dev:server": "webpack-dev-server --progress --colors",
+    "dev:watch": "webpack --config=webpack.config.js --env.development=true",
+    "build": "webpack --config=webpack.config.prod.js --env.production=true"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "clean-webpack-plugin": "^3.0.0",
+    "html-loader": "^0.5.5",
     "imagesloaded": "^4.1.4",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
