@@ -1,2 +1,3 @@
 // Example
-// import "../fonts/image.jpg";
+import "../images/plant.jpg";
+import "../images/plant2.png";

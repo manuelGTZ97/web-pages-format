@@ -2,7 +2,7 @@
     require "./init.php";
 
     $params = [
-        'example' => "Hi there!",
+        'example' => "Edit index.php!",
     ];
     $template = $twig->load('index.twig');
     echo $template->render($params);
