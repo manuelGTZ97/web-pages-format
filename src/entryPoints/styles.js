@@ -1,1 +1,2 @@
-import "../styles/main.sass";
+// Example
+// import "../fonts/styles.sass";
